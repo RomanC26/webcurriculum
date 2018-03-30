@@ -1,0 +1,44 @@
+/* 
+
+Vars: Summary
+    -Colors
+    -Fonts
+    -Breakpoints for media queries
+
+*/
+
+/* Colors */
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-sc-grey-light2: #f5f5f5;
+$color-sc-grey-light3: #d6d6d6;
+$color-sc-grey-light: #bbbbbb;
+$color-sc-grey-dark2: #858585;
+$color-sc-grey-mid: #666666;
+$color-sc-grey-dark3: #5c5c5c;
+$color-sc-grey-dark: #474747;
+$color-sc-grey-light4: #95989a;
+
+$font-size-xs: 11px;
+$font-size-s: 13px;
+$font-size-normal: 16px;
+$font-size-l: 18px;
+$font-size-xl: 20px;
+
+$font-size-h2: 28px;
+$font-size-h3: 24px;
+$font-size-h4: 20px;
+$font-size-h5: 16px;
+
+$font-weight-light: 300;
+$font-weight-semilight: 400;
+$font-weight-normal: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+/*Breakpoints for media queries*/
+$screen-tablet-portrait-up: 600px;
+$screen-tablet-landscape-up: 900px;
+$screen-desktop-up: 1200px;
+
