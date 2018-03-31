@@ -8,31 +8,52 @@ Vars: Summary
 */
 /* Colors */
 /*Breakpoints for media queries*/
+/* 
+
+Vars: Summary
+    -Colors
+    -Fonts
+    -Breakpoints for media queries
+
+*/
+/* Colors */
+/*Breakpoints for media queries*/
+h1 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0px;
+  padding: 12px 0px 6px 0px; }
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0px;
+  padding: 8px 0px 4px 0px; }
+
+h3 {
+  font-size: 12px;
+  font-weight: 100;
+  margin: 0px;
+  padding: 4px 0px 2px 0px; }
+
+h4 {
+  font-size: 12px;
+  margin: 0px;
+  padding: 2px 0px 0px 0px; }
+
 .profil-container {
-  display: block;
-  height: 190px;
+  height: 155px;
   background-color: #f2f2f2;
   text-align: center; }
+  .profil-container h2 {
+    padding-top: 0px; }
 
 .photo-container {
   display: flex;
   justify-content: center;
   align-items: center; }
   .photo-container .photo-cv {
-    margin-top: -70px;
-    width: 250px;
+    margin-top: -60px;
+    width: 150px;
     border: solid 7px white;
     border-radius: 50%; }
-
-h2 {
-  font-size: 28px;
-  margin: 0px;
-  padding: 0.6em 0em 0em 0em; }
-
-h3 {
-  font-size: 20px;
-  margin: 0px;
-  padding: 0.1em 0em 0.5em; }
-
-h4 {
-  font-size: 20px; }

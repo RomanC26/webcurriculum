@@ -1,0 +1,65 @@
+@import 'styles/_vars.scss';
+@import 'styles/_general.scss';
+
+.head-section{
+  hr{
+    width: 125px;
+    border: none;
+    border-bottom: solid 1px $color-grey-mid;
+    margin: 2px auto;
+  }
+}
+
+.head-title{
+  font-size: $font-size-h2;
+  color: $color-grey-dark;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 0px;
+}
+
+.content-section{
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0px;
+}
+
+.project-container{
+  display: flex;
+  width: 800px;
+  text-align: left;
+  margin: 8px auto;
+}
+
+.project-info{
+  width: 115px;
+  line-height: 28px;
+  padding: 0px 16px;
+
+  .project-date{
+    color: $color-blue-light;
+    font-weight: 200;
+    padding-bottom: 6px;
+  }
+
+  .project-location{
+    color: $color-grey;
+    font-weight: 200;
+    padding-bottom: 6px;
+  }
+}
+
+.project-view{
+  padding: 0px 16px;
+
+  .project-name{
+    font-size: 18px;
+  }
+  
+  .project-decription{
+    ul{
+      padding-left: 21px; 
+      margin: 7px 0px;
+    }
+  }
+}

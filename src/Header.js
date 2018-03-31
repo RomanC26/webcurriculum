@@ -11,8 +11,8 @@ class Header extends Component {
             <img src={banner} className="App-banner" alt="banner"/>
           </div>
           <div className="profil-container">
-            <h2>Roman Collaud</h2>
-            <h3>Apprenti 3ème année Swisscom SA</h3>
+            <h1>Roman Collaud</h1>
+            <h2>Apprenti 3ème année Swisscom SA</h2>
           </div>
           <div className="photo-container">
             <img src={photo} className="photo-cv" alt="profil"/>
